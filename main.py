@@ -1,9 +1,11 @@
-with open('text.txt', 'r') as file:
-    content = file.read()
+with open('origin.txt', 'r') as f:
+    origin = f.read()
 
 count = 0
-for i in content:
+for char in origin:
     count += 1
 
 print(count)
+
+
 
