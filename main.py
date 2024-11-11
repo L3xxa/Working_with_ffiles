@@ -1,6 +1,7 @@
-from itertools import count
+with open('origin.txt', 'w') as file:
+    file.write("This is a sample text with several words.")
 
-with open('text.txt', 'r') as file:
+with open('origin.txt', 'r') as file:
     content = file.read()
 
 read = content.split()
